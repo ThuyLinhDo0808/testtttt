@@ -1,0 +1,120 @@
+main {
+    margin: 50px 0;
+  }
+body{
+    background: bisque;
+}
+.contact {
+width: 80%;
+margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 40px;
+    position: relative;
+    line-height: 20px;
+    color: rgb(92, 64, 51);
+}
+
+h1 {
+font-size: 36px;
+margin-bottom: 30px;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+label {
+font-size: 18px;
+display: block;
+margin-bottom: 10px;
+}
+
+.required {
+color: red;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+width: 100%;
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+font-size: 16px;
+}
+
+.checkbox-wrapper,
+.radio-wrapper {
+display: flex;
+align-items: center;
+}
+
+.checkbox-wrapper label,
+.radio-wrapper label {
+margin-right: 20px;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 10px;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #ccc;
+}
+
+.checkbox-wrapper input[type="checkbox"]:checked + label:before {
+content: "\2713";
+font-size: 14px;
+color: #29b6f6;
+text-align: center;
+line-height: 17px;
+}
+
+textarea {
+height: 150px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+padding: 10px 20px;
+background-color: rgb(92, 64, 51);
+color: #fff;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+background-color: rgb(194, 175, 160);
+color: #fff;
+}
+
+@media (max-width: 450px) {
+label {
+    display: block;
+    margin-bottom: 5px;
+    }
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    margin-bottom: 10px;
+    }
+
+.checkbox-wrapper label,
+.radio-wrapper label {
+    margin-right: 10px;
+    }
+}

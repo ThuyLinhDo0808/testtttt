@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Linh's Book Store</title>
+        <link rel="icon" href="favicon-32x32.png" type="image/png">
+        <link rel="stylesheet" type="text/css" href="Style.css">
+        <link rel="stylesheet" type="text/css" href="Contact page style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo"><a href="index.html">BookTown</a></div>
+                <input type="checkbox" id="check">
+                <label for="check" class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul class="navigation">
+                    <li><a class="main-category" href="index.html">Home</a></li>
+                    <li><a href="Business Sub-Category page.html">Business</a></li>
+                    <li><a href="Graphic Novel Sub-Category page.html">Graphic Novel</a></li>
+                    <li><a href="Education Sub-Category page.html">Education</a></li>
+                    <li><a href="Fiction Sub-Category page.html">Fiction</a></li>
+                    <li><a href="Sports Sub-Category page.html">Sports</a></li>
+                    <li><a href="Art Sub-Category page.html">Arts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+          <div class="contact" id="contact">
+            <h1 class="title">Contact Us</h1>
+            <form action="#" method="POST">
+              <div class="form-group">
+                <label for="contact-purpose">Contact Purpose <span class="required">*</span></label>
+                <select name="contact-purpose" id="contact-purpose" required>
+                  <option value="">-- Select --</option>
+                  <option value="sell-books">I want to sell books</option>
+                  <option value="buy-books">I want to buy books</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="name">Name <span class="required">*</span></label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email <span class="required">*</span></label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone <span class="required">*</span></label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-preference">Contact Preference <span class="required">*</span></label>
+                <div class="checkbox-wrapper">
+                  <label><input type="checkbox" id="email-preference" name="contact-preference[]" value="email">By email</label>
+                  <label><input type="checkbox" id="phone-preference" name="contact-preference[]" value="phone">By phone</label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Receive Weekly Newsletter <span class="required">*</span></label>
+                <div class="radio-wrapper">
+                  <label for="yes-newsletter">
+                    <input type="radio" id="yes-newsletter" name="newsletter" value="yes" checked required>Yes
+                  </label>
+                  <label for="no-newsletter">
+                    <input type="radio" id="no-newsletter" name="newsletter" value="no" required>No
+                  </label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="extra-notes">Extra Notes</label>
+                <textarea id="extra-notes" name="extra-notes"></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+              </div>
+            </form>
+          </div>
+          <section class="footer">
+            <div class="box-container">
+              <div class="box">
+                <h3>About Us</h3>
+                <a href="index.html">Home</a>
+                <a href="index.html">Why Us</a>
+                <a href="index.html">Customer's Review</a>
+                <a href="index.html">Our Books</a>
+              </div>
+              <div class="box">
+                <h3>Others</h3>
+                <a href="#">Payment</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms</a>
+                <div class="social-media">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+              <div class="box">
+                <h3>Contact Info</a></h3>
+                <a href="#">090 345 9808</a>
+                <a href="#">s3927777@student.rmit.edu.au</a>
+                <a href="#">RMIT University Vietnam</a>
+                <a href="Contact page.html">Contact Us</a>
+              </div>
+            </div>
+            <div class="copyright">© Copyright 2023 by Do Thuy Linh @RMIT Vietnam | Made with passion</div>
+          </section>
+      </main>
+  </body>
+</html>
